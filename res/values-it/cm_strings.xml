@@ -836,4 +836,83 @@
   <string name="battery_info_status_charging_dock_ac">Ricarica su Dock AC</string>
   <!-- [CHAR_LIMIT=20] Battery use screen. Battery status shown in chart label when charging over Dock USB. -->
   <string name="battery_info_status_charging_dock_usb">Ricarica su Dock USB</string>
+  
+  <string name="restrict_app_wlan_title">Disattiva utilizzo Wi\u2011Fi</string>
+  <string name="restrict_app_wlan_summary">Impedisci all\'app di utilizzare il Wi\u2011Fi</string>
+  <string name="restrict_app_cellular_title">Disattiva utilizzo reti mobili</string>
+  <string name="restrict_app_cellular_summary">Impedisci all\'app di utilizzare le connessioni a reti mobili</string>
+  <string name="privacy_guard_internet_category">Internet</string>
+
+  <!-- Weather -->
+  <string name="weather_settings_title">Meteo</string>
+  <string name="weather_settings_no_services_prompt">Nessun provider meteo installato</string>
+  <string name="weather_settings_button">Impostazioni provider</string>
+  <string name="weather_settings_activity_not_found">Impossibile aprire il menu d\'impostazioni di questo provider</string>
+  <string name="weather_settings_add_weather_provider">Aggiungi un provider meteo</string>
+  <string name="weather_settings_general_settings_title">Generale</string>
+  <string name="weather_settings_providers_title">Provider</string>
+  <string name="weather_settings_temp_units_title">Unità di temperatura</string>
+  <string name="weather_settings_temp_celsius">Celsius</string>
+  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
+  <string name="weather_settings_keyword">meteo</string>
+
+  <string name="background_data_access">Accesso dati in background</string>
+  <string name="allow_background_both">Con dati mobili &amp; Wi\u2011Fi</string>
+  <string name="allow_background_wlan">Solo su Wi\u2011Fi</string>
+  <string name="allow_background_none">Nessun accesso</string>
+  <string name="mobile_data_alert">Avviso dati mobili</string>
+  <string name="mobile_data_alert_summary">Notifica quando un\'app utilizza un ammontare significativo di dati</string>
+  <string name="data_usage_menu_enable_data_alerts">Attiva avvisi utilizzo dati</string>
+  <string name="data_usage_menu_disable_data_alerts">Disattiva avvisi utilizzo dati</string>
+  <string name="data_usage_menu_reset_stats">Azzera statistiche dati</string>
+  <string name="reset_data_stats_msg">Tutte le informazioni sull\'utilizzo dei dati salvate saranno rimosse</string>
+  <string name="reset_stats_confirm">Conferma</string>
+
+  <string name="restrict_cellular_access_title">Limita utilizzo dati mobili</string>
+  <string name="restrict_cellular_access_summary">Disattiva accesso su dati mobili</string>
+  <string name="restrict_cellular_access_dialog_title">Applicare restrizione dati mobili?</string>
+  <string name="restrict_cellular_access_dialog_summary">Questa funzione potrebbe impedire ad un\'app di funzionare correttamente quando sei connesso solo con dati mobili.\n\nPotresti trovare controlli per l\'utilizzo dati pià appropriati all\'interno delle impostazioni dell\'app stessa.</string>
+  
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operatori di rete</string>
+
+  <!-- title for lock screen blur preference -->
+  <string name="lockscreen_blur_enabled_title">Sfocatura sfondo</string>
+  <!-- title for lock screen weather preference -->
+  <string name="lockscreen_weather_enabled_title">Mostra meteo</string>
+
+  <!-- Per app controls for LP keyguard notifications -->
+  <string name="app_notification_show_on_keyguard_title">Mostra nella schermata di blocco</string>
+  <string name="app_notification_show_on_keyguard_summary">Mostra notifiche di quest\'app nella schermata di blocco</string>
+  <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita la notifica persistente nella schermata di blocco</string>
+  <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai notifiche persistenti da quest\'app nella schermata di blocco</string>
+  
+  <!-- CmRadioInfo -->
+  <string name="cm_radio_info_label">Controlli radio avanzati</string>
+
+  <!-- Radio Control (IMS/MBN etc.) -->
+  <string name="cm_radio_info_mbn_auto_load_on_label">Disattiva caricamento MBN automatico</string>
+  <string name="cm_radio_info_mbn_auto_load_off_label">Attiva caricamento MBN automatico</string>
+  <string name="cm_radio_info_volte_avail_ovr_on_label">Disattiva debug VoLTE</string>
+  <string name="cm_radio_info_volte_avail_ovr_off_label">Attiva debug VoLTE</string>
+  <string name="cm_radio_info_vt_avail_ovr_on_label">Disattiva debug VT</string>
+  <string name="cm_radio_info_vt_avail_ovr_off_label">Attiva debug VT</string>
+  <string name="cm_radio_info_wfc_avail_ovr_on_label">Disattiva debug WFC</string>
+  <string name="cm_radio_info_wfc_avail_ovr_off_label">Attiva debug WFC</string>
+  <string name="cm_radio_info_adb_log_on_label">Disattiva log radio ADB</string>
+  <string name="cm_radio_info_adb_log_off_label">Attiva log radio ADB</string>
+  <string name="cm_radio_info_diag_log_on_label">Disattiva log Diag</string>
+  <string name="cm_radio_info_diag_log_off_label">Attiva log Diag</string>
+
+  <string name="not_available_with_app">Non disponibile con %1$s</string>
+
+  <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
+
+  <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">posteriore</string>
+  <string name="security_settings_fingerprint_sensor_location_front">anteriore</string>
+  <string name="security_settings_fingerprint_sensor_location_left">sinistra</string>
+  <string name="security_settings_fingerprint_sensor_location_right">destra</string>
+    
 </resources>
